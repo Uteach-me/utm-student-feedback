@@ -13,7 +13,7 @@ const Container = styled.div`
   flex-direction: row;
   border-top: 1px solid #dedfe0;
   padding: 15px 0px 15px 0px;
-  min-height: 100px;
+  min-height: 50px;
   @media (max-width: 575px) {
     flex-direction: column;
   }
@@ -82,7 +82,7 @@ const Review = ({ review }) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0,
-    rootMargin: '0px',
+    rootMargin: '0px 200px 0px 0px',
   });
 
   return (
