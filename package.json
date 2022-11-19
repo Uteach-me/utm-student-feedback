@@ -54,6 +54,6 @@
     "jest-enzyme": "^7.1.2",
     "nodemon": "^2.0.2",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.12"
   }
 }
